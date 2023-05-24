@@ -6,13 +6,13 @@ verify_ssl = true
 [dev-packages]
 black = "==19.10b0"
 flake8 = "*"
-importlib_metadata = {version = "*", markers = "python_version < '3.8'"}
+importlib_metadata = {version = "*", markers = "python_version < '3.12'"}
 pytest = "*"
 pytz = "*"
 requests = "<3.0"
 
 [packages]
-jellyfish = "==0.7.2"
+jellyfish = "==0.11.2"
 
 
 [pipenv]
